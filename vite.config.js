@@ -19,15 +19,6 @@ export default defineConfig(({ mode }) => {
     plugins: [react(), siteUrlPlugin(siteUrl)],
     build: {
       chunkSizeWarningLimit: 900,
-      rollupOptions: {
-        output: {
-          // The 3D stack is split automatically via the dynamic import in SceneRoot.jsx.
-          manualChunks(id) {
-            if (id.includes('node_modules/gsap')) return 'gsap'
-            if (id.includes('node_modules/framer-motion') || id.includes('node_modules/motion-')) return 'motion'
-          },
-        },
-      },
     },
   }
 })

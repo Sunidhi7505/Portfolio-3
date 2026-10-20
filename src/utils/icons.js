@@ -29,6 +29,7 @@ export const GLYPH = {
 }
 
 export const DISPLAY_NAME = {
+  jwt: 'JWT', html5: 'HTML', css3: 'CSS', springsecurity: 'Spring Security', mongodb: 'MongoDB', cpp: 'C++', leaflet: 'Leaflet.js',
   java: 'Java', sql: 'SQL', vscode: 'VS Code', rest: 'REST APIs', dsa: 'DSA', oop: 'OOP',
   dbms: 'DBMS', os: 'Operating Systems', networks: 'Computer Networks',
 }

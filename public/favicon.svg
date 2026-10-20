@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#3b63e8"/>
-      <stop offset="1" stop-color="#7c5cf0"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="16" fill="#0b1120"/>
-  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="url(#g)" stroke-width="2"/>
-  <text x="32" y="43" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#e6edf7">SG</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#12234f"/><path d="M26 20 14 32l12 12M38 20l12 12-12 12" fill="none" stroke="#8fb0ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
